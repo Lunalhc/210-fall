@@ -25,7 +25,7 @@ class Program
             Entry entry = new Entry();
             entry._date = DateTime.Now.ToShortDateString();
             entry._name = name;
-            entry._prompt = ""; // You need to specify the prompt here
+            entry._prompt = ""; 
             entry._response = response;
             journal.list_of_entries.Add(entry);
             journal.Save(filePath);
